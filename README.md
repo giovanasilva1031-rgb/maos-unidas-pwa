@@ -60,3 +60,35 @@ autenticação e armazenamento de dados.
 
 Para funcionar corretamente, é necessário
 manter a configuração do Firebase disponível.
+
+## Fluxo de consulta de beneficiários
+
+O aplicativo Mãos Unidas permite consultar
+beneficiários cadastrados utilizando o CPF.
+
+### Etapas do processo
+
+1. O usuário autorizado acessa o sistema.
+2. Informa o CPF do beneficiário.
+3. O aplicativo consulta os dados no Cloud Firestore.
+4. As informações encontradas são exibidas na tela.
+5. O usuário verifica a situação de elegibilidade
+   e o benefício associado ao cadastro.
+
+### Controle de entregas
+
+O projeto prevê o registro de entregas de
+benefícios sociais, com identificação do
+beneficiário e do voluntário responsável.
+
+O controle de duplicidade por benefício e
+mês faz parte das regras de negócio previstas.
+
+### Limitações do MVP
+
+A confirmação definitiva de entregas depende
+da conclusão e validação das regras de
+segurança do banco de dados.
+
+O sistema é um protótipo acadêmico e deve
+ser validado antes de sua utilização real.
