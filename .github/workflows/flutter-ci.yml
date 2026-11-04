@@ -1,0 +1,34 @@
+
+name: CI Flutter - Maos Unidas
+
+on:
+  push:
+    branches:
+      - main
+      - revisao-tecnica-mvp
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  testes-e-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Instalar dependencias
+        run: flutter pub get
+
+      - name: Executar testes
+        run: flutter test --coverage
+
+      - name: Compilar aplicativo web
+        run: flutter build web
