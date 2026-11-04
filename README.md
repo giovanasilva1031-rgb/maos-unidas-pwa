@@ -31,3 +31,32 @@ https://maos-unidas-pwa.web.app
 ## Objetivo acadêmico
 
 Demonstrar a aplicação prática de conceitos de desenvolvimento de software, banco de dados, autenticação, publicação em nuvem e versionamento de código em uma solução voltada ao apoio social.
+
+## Como executar o projeto
+
+### Pré-requisitos
+
+- Flutter SDK instalado
+- Visual Studio Code
+- Navegador Microsoft Edge
+- Conexão com a internet
+
+### Instalação
+
+1. Clone o repositório do GitHub.
+2. Abra a pasta do projeto no VS Code.
+3. Execute o comando:
+
+   flutter pub get
+
+4. Inicie o aplicativo no navegador:
+
+   flutter run -d edge
+
+### Observações
+
+O sistema utiliza serviços do Firebase para
+autenticação e armazenamento de dados.
+
+Para funcionar corretamente, é necessário
+manter a configuração do Firebase disponível.
