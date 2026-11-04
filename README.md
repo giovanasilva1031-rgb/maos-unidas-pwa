@@ -1,17 +1,33 @@
-# maos_unidas_pwa
+# Mãos Unidas
 
-A new Flutter project.
+## Sobre o projeto
 
-## Getting Started
+O Mãos Unidas é um aplicativo web progressivo (PWA) desenvolvido como projeto acadêmico para apoiar a organização e o controle da distribuição de benefícios sociais.
 
-This project is a starting point for a Flutter application.
+A proposta é facilitar a consulta de beneficiários e apoiar o registro de entregas de doações, contribuindo para a organização das atividades de assistência social.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades do MVP
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Consulta de beneficiários por CPF.
+- Consulta de informações e situação de elegibilidade.
+- Autenticação de usuários com Firebase Authentication.
+- Integração com Cloud Firestore para armazenamento de dados.
+- Interface web desenvolvida em Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Observação:** o registro definitivo de entregas depende da configuração e validação das regras de segurança do Firestore.
+
+## Tecnologias utilizadas
+
+- Dart e Flutter
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Hosting
+- Git e GitHub
+
+## Aplicação publicada
+
+https://maos-unidas-pwa.web.app
+
+## Objetivo acadêmico
+
+Demonstrar a aplicação prática de conceitos de desenvolvimento de software, banco de dados, autenticação, publicação em nuvem e versionamento de código em uma solução voltada ao apoio social.
