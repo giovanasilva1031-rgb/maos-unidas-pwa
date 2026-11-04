@@ -92,3 +92,42 @@ segurança do banco de dados.
 
 O sistema é um protótipo acadêmico e deve
 ser validado antes de sua utilização real.
+
+## Publicação e monitoramento
+
+### Firebase Hosting
+
+O aplicativo Mãos Unidas foi publicado
+utilizando o Firebase Hosting.
+
+Link público:
+https://maos-unidas-pwa.web.app
+
+O processo de publicação foi realizado
+pelo terminal com o comando:
+
+firebase deploy --only hosting
+
+### Monitoramento com UptimeRobot
+
+Foi configurado um monitor HTTP/HTTPS
+no UptimeRobot para acompanhar a
+disponibilidade da aplicação.
+
+O monitor verifica o endereço público
+do sistema a cada 5 minutos.
+
+A ferramenta permite visualizar:
+- Estado atual da aplicação.
+- Histórico de disponibilidade.
+- Incidentes de indisponibilidade.
+- Tempo de resposta do servidor.
+
+Também foi configurada a opção de
+notificação por e-mail para alertas.
+
+### Considerações
+
+O monitoramento verifica a disponibilidade
+do endereço web, mas não substitui os
+testes das funcionalidades internas.
