@@ -65,3 +65,5 @@ build/
 serviceAccountKey.json
 **/service-account*.json
 **/google-services-private.json
+
+.firebase/
